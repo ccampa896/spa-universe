@@ -1,0 +1,57 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+#app {
+  margin-top: 50px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #ffffff; /* Cor constante para todos os estados */
+  text-decoration: none; /* Exemplo para remover o sublinhado */
+}
+
+nav img {
+  margin-right: 20px; /* Adiciona espaço à direita da imagem */
+}
+
+nav a {
+  margin-right: 20px; /* Adiciona espaço à direita de cada link */
+}
+
+.botao-link {
+  display: inline-block;
+  color: white; /* Texto branco */
+  padding: 10px 20px; /* Preenchimento interno */
+  text-align: center; /* Texto centralizado */
+  font-weight: bold; /* Texto em negrito */
+  border-radius: 5px; /* Bordas arredondadas */
+  border: 2px solid #ffffff; /* Adiciona borda */
+  transition: background-color 0.3s; /* Efeito de transição suave */
+}
+
+.botao-link:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Para centralizar o botão horizontalmente */
+.container-botao {
+  text-align: center; /* Centraliza o conteúdo do contêiner */
+}
